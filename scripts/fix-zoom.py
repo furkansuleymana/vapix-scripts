@@ -1,3 +1,11 @@
+""" 
+This script can be used when cameras in the network change their zoom levels over time. 
+It runs in an endless loop, periodically adjusting the zoom level.
+
+It's important to note that changing the zoom level sends an HTTP request, which can put strain on both the camera and its mechanics. 
+While the camera can tolerate the mechanics not moving if the value hasn't changed, moving the mechanics every minute can cause long-term damage to the camera. 
+"""
+
 import requests
 import time
 
@@ -21,5 +29,5 @@ while True:
         # Print the response
         print(f"Response from {ip}: {response.status_code}")
 
-        # Wait a minute
+        # Wait
         time.sleep(60)

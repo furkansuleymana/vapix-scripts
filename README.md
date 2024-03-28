@@ -1,2 +1,1 @@
-# vapix-scripts
-My collection of VAPIX scripts to automate configuration of AXIS cameras.
+This repository contains untested and unapproved code related to the VAPIX API. None of it have been endorsed by Axis Communications. It is provided for informational purposes only to give new users a basic understanding of the API's functionalities. Please use this code with caution and at your own risk.

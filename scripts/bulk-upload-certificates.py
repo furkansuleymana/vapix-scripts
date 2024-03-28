@@ -1,3 +1,10 @@
+"""
+This script installs all certificates in a single folder on the camera. 
+
+Before using this script, please verify that your certificate is compatible by attempting to install it via the web interface. 
+If you are unable to install the certificate via the web interface, it will not work with this script either.
+"""
+
 import os
 import requests
 from requests.auth import HTTPDigestAuth
